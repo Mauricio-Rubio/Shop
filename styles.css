@@ -38,7 +38,7 @@ body{
 .row a{
     display: flex;
     justify-content: center;
-    padding: 3%;
+    padding: 10%;
 }
 .navbar-toggler-icon{
     color: grey !important;
@@ -47,22 +47,18 @@ body{
     background-color: transparent;
     display: flex;
     align-items: center;
+    padding-left: 6%;
 }
 .nav-link{
     padding: 2rem 1rem;
 }
-.nav-logo{
-    padding-right: 2rem;
-    padding-left: 2rem;
+.logo{
+    margin-right: 7rem;
+    margin-left: 7rem;
 }
 ul{
     display: flex;
     align-items: center;
-}
-.card-simbols{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
 }
 .wrapper{
     width: 100%;
@@ -73,6 +69,12 @@ ul{
     padding: 10px 0;
     justify-content: center;
 }
+.card-simbols{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2%;
+}
 .simbols{
     margin: 0 6%;
     margin-right: 5%;
@@ -82,7 +84,6 @@ ul{
     display: flex;
     width: 100%;
     padding: 1%;
-    /* padding-left: 6%; */
     flex-direction: column;
 }
 .products-title{
@@ -93,9 +94,17 @@ ul{
     width: 320px;
     height: 470px;
 }
+.product-img img{
+    transition: all 500ms ease;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
 .card-boards{
     margin: 3%;
-    /* padding: 3%; */
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px #333333;
+    cursor: pointer;
 }
 .card-boards, h1{
     font-size: 1.9rem;
