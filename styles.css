@@ -1,8 +1,7 @@
 body{
     margin: 0%;
     padding: 0 2%;
-    background-color: grey;
-    border: solid black 2px;
+    background-color: #4b4b4b;
 }
 .card{
     /* display: flex;
@@ -29,12 +28,12 @@ body{
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 5%;
-    font-size: 30px;
+    font-size: 20px;
     background-image: url("jpg/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg");
     background-size: cover;
     background-position: left;
     min-height: 100vh;
-    border: solid red 2px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .row a{
     display: flex;
@@ -43,56 +42,102 @@ body{
 }
 .navbar-toggler-icon{
     color: grey !important;
-    border-radius: 2px red;
 }
 .navbar{
     background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    padding: 2rem 1rem;
+}
+.nav-logo{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+ul{
+    display: flex;
+    align-items: center;
 }
 .card-simbols{
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    /* padding: 5px; */
-    padding-left: 5%;
-    border: solid green 2px;
+    width: 100%;
 }
 .wrapper{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
-    justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 10px 0;
+    justify-content: center;
 }
 .simbols{
-    margin: 0 1%;
+    margin: 0 6%;
+    margin-right: 5%;
     padding: 0 1%;
-    border: solid red 2px;
 }
 .card-products{
     display: flex;
     width: 100%;
     padding: 1%;
-    padding-left: 5%;
+    /* padding-left: 6%; */
     flex-direction: column;
-    border: solid red 2px;
 }
 .products-title{
-    margin: 0 1%;
-    border: solid red 2px;
+    margin: 0 3%;
+    padding-left: 5%;
 }
 .product-img{
     width: 320px;
+    height: 470px;
 }
 .card-boards{
-    margin: 1%;
-    border: solid red 2px;
+    margin: 3%;
+    /* padding: 3%; */
 }
+.card-boards, h1{
+    font-size: 1.9rem;
+    /* padding: 3%; */
+}
+
 .product-description{
     padding: 1%;
+    font-size: 20px;
+    /* height: 70px; */
 }
 .product-description h5{
     padding: 0;
     margin: 0;
+}
+.card-footer{
+    background-color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer{
+    width: 100%;
+}
+.terms{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+.term{
+    color: honeydew;
+    margin: 0 5%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    color: honeydew;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    color: honeydew;
+    padding: 2% 0;
 }

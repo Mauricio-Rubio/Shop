@@ -2,5 +2,8 @@
     .card-boards{
         display: inherit;
         height: auto;
+        /* justify-items: center; */
+        padding: auto;
+        margin: auto;
     }
 }
